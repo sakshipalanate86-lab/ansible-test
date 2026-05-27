@@ -1,0 +1,9 @@
+# ansible-test
+---
+- hosts: localhost
+  tasks:
+    - name: add user
+      user:
+        name: ravi
+        state: present
+...
